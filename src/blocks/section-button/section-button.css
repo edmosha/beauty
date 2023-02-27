@@ -1,0 +1,14 @@
+.section-button {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}

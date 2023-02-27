@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/roboto.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/section-button/section-button.css);
+@import url(../blocks/phone-block/phone-block.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/showcase/showcase.css);
+@import url(../blocks/offers/offers.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/footer/footer.css);

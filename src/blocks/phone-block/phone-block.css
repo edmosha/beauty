@@ -1,0 +1,15 @@
+.phone-block {
+  display: flex;
+  align-items: center;
+}
+
+.phone-block__number {
+  margin: 0 40px 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.phone-block__button {
+  border: 2px solid #66C05D;
+}

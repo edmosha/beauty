@@ -1,0 +1,84 @@
+.offers {
+  background-color: #EFEFEF;
+}
+
+.offers__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 80px 0 133px;
+  background: url("../../images/truck.png") top 70px right 45px no-repeat;
+}
+
+.offers__title {
+  margin: 0 0 38px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.offers__card-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* banners */
+
+.offers__banners-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.offers__banner {
+  flex-basis: 540px;
+  flex-grow: 1;
+  min-height: 212px;
+  max-width: 540px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  background: #66C05D;
+}
+
+.offers__banner:first-child {
+  background: #66C05D url("../../images/envelope.svg") top 50% right 45px no-repeat;
+}
+
+.offers__banner-title {
+  margin: 0 0 25px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.offers__banner-description {
+  max-width: 232px;
+  margin: 0 0 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.offers__banner-input {
+  width: 225px;
+  height: 35px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  outline: none;
+}
+
+.offers__banner-input::placeholder {
+  color: #C4C4C4;
+}
+
+.offers__banner-map-button {
+  border: 2px solid #fff;
+}
